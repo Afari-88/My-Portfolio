@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kenneth Afari</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <header>
+            <div class="name"><h2>Kenneth Afari</h2></div>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <nav class="nav-bar">
+                <div class="list">
+                    <ul class="list-button">
+                        <li><a href="#" class="active">Home</a></li>
+                    </ul>
+                    <ul class="list-button">
+                        <li>
+                            <a href="#">Features</a>
+                        </li>
+                    </ul>
+                    <ul class="list-button">
+                        <li><a href="#">Pricing</a></li>
+                    </ul>
+                    <ul class="list-button">
+                        <li><a href="#">About</a></li>
+                    </ul>
+                    <ul class="list-button">
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header> 
+        <section class="site-content">
+            <main class="site-area">
+                <div class="image-cover">
+                    <img src="icon/Ken.jpg" alt="">
+                    <div class="learn-text">
+                        <h1>Learn anything fast.</h1>
+                        <h6> High quality tech how to videos and articles that
+                            <br>
+                            enable you to quickly get up to speed with office
+                            <br>
+                            productivity software from a former Microsoft
+                            <br>
+                            senior program manager and Windows MVP.
+                        </h6>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <div class="quality-container">
+                        <div class="quality">
+                            <figure>
+                                <img class="image-icon" src="icon/quality2.png" alt="">
+                            </figure>
+                            <p>Quality</p>
+                        </div>
+                        <p>Highest quality videos and articles that help you get
+                        unblocked asap to get you to be productive and become the expert</p>
+                    </div>
+                    <div class="quality-container">
+                        <div class="free">
+                            <figure>
+                                <img class="image-icon" src="icon/free.png" alt="">
+                            </figure>
+                            <p>Free</p>
+                        </div>
+                        <p>Always free how-to content in video and article format to best suit your needs!</p>
+                    </div>
+                    <div class="quality-container">
+                        <div class="easy">
+                            <figure>
+                                <img class="image-icon" src="icon/easy2.png" alt="">
+                            </figure>
+                            <p>Easy</p>
+                        </div>
+                        <p>Straightforward how-to tutorials to walk you through common
+                            office productivity software workflows</p>
+                    </div>
+                </div>
+                <hr>
+                <h2 class="h2-bottom">Recent Service</h2>
+                <hr>
+                <form>
+                    <label for="">Search</label>
+                    <div class="search-container">
+                        <input type="search" placeholder="Searchh tutorials">
+                        <button type="submit" class="search-button">
+                            <img class="search-icon" src="icon/search (1).svg" alt="">
+                        </button>
+                    </div>
+                </form>
+            </main>
+        </section>
+
+        <script>
+            hamburger = document.querySelector(".hamburger");
+            hamburger.onclick = function() {
+                navBar = document.querySelector(".nav-bar");
+                navBar.classList.toggle("active");
+            }
+        </script>
+    </body>
+</html>
